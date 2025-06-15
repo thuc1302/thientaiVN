@@ -7,7 +7,7 @@ const news = {
   2: { 
     title:'Nắng nóng kéo dài tại khu vực Miền Trung',
     content:'Dự báo, ngày 16-17/6, khu vực từ Thanh Hóa đến Phú Yên tiếp tục có nắng nóng, có nơi nắng nóng gay gắt với nhiệt độ cao nhất phổ biến 35-37 độ C, có nơi trên 38 độ C. Cơ quan khí tượng cảnh báo, nắng nóng ở Trung Bộ có khả năng kéo dài trong những ngày tiếp theo. Theo Trung tâm Dự báo khí tượng thủy văn quốc gia, hôm nay (15/6), tại khu vực Bắc Bộ và Thanh Hóa, Nghệ An, thời tiết nắng nóng, có nơi nắng nóng gay gắt với nhiệt độ lúc 13 giờ phổ biến 35-37 độ C, có nơi trên 37 độ C như: Yên Châu (Sơn La) 37,3 độ C, Chi Nê (Hòa Bình) 38,1 độ C,… Độ ẩm tương đối lúc 13 giờ phổ biến 55-65%.',
-    image:'img/nang.jpg'
+    video: 'https://youtu.be/FSX9CfeW1X8?si=IY0dFeVp9VI9xP4S'
   },
   3: { 
     title:'Nguy cơ ngập lụt ở Đồng bằng sông Cửu Long trong nửa cuối tháng Chín',
