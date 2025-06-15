@@ -2,7 +2,7 @@ const news = {
   1: { 
     title:'Bão số 1 đổ bộ vào khu vực phía Bắc',
     content:'Hồi 7 giờ ngày 11/6, vị trí tâm bão số 1 Wutip ở vào khoảng 16,1 độ vĩ bắc; 113,7 độ kinh đông trên vùng biển phía đông quần đảo Hoàng Sa. Sức gió mạnh nhất vùng gần tâm bão mạnh cấp 8 (62 - 74km/giờ), giật cấp 10. Dự báo trong 24 giờ tới, áp thấp nhiệt đới di chuyển theo hướng Tây Tây Bắc với tốc độ khoảng 10 km/giờ và có khả năng mạnh thêm.',
-    image:'img/baoso1.png'
+    video: 'https://youtu.be/umYbEaDkpyg?si=py2q5N1Qp5ZG-mwk'
   },
   2: { 
     title:'Nắng nóng kéo dài tại khu vực Miền Trung',
