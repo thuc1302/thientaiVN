@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Css/Tintuc.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+</head>
+<body>
+  <div class="navbar">
+    <img src="Img/Logo.png" class="logo" />
+    <a href="index.html"><i class="fa-solid fa-house white-icon"></i> Trang chủ</a>
+    <a href="Gioithieu.html"><i class="fas fa-cloud-bolt white-icon"></i> Thiên tai</a>
+    <a href="hotro.html">
+      <i class="fas fa-hand-holding-heart white-icon"></i> Hỗ trợ</a>
+    <div class="dropdown">
+      <a href="#">
+        <i class="fa-solid fa-circle-info white-icon"></i> Tin tức</a>
+    </div>
+
+    <div class="dropdown">
+      <a href="#"><i class="fas fa-user white-icon"></i> Tài khoản</a>
+      <div class="dropdown-content">
+        <a href="LoginBWD.html">Đăng nhập</a>
+      </div>
+    </div>
+  </div>
+
+  <h1 style="padding:20px;"><i class="fa-solid fa-newspaper"></i> Tin Tức</h1>
+
+  <div class="container">
+    <div class="news-list">
+      <ul id="newsList">
+        <li data-id="1">Bão số 1 đô bộ vào Việt Nam</li>
+        <li data-id="2">Nắng nóng kéo dài tại khu vực Miền Trung</li>
+        <li data-id="3">Lũ lụt tại đồng bằng sông Cửu Long</li>
+        <li data-id="4">Cảnh báo lũ quét, sạt lở đất tại một số địa phương trong tỉnh</li>
+      </ul>
+    </div>
+
+    <div class="news-content" id="newsContent">
+      <h2>Vui lòng chọn một tin từ danh sách</h2>
+      <p>Nội dung sẽ hiển thị ở đây khi bạn nhấn vào một tin.</p>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Về Chúng Tôi</h3>
+        <p>
+          Trang thông tin về thiên tai và thời tiết, cung cấp kiến thức và
+          hướng dẫn an toàn cho cộng đồng.
+        </p>
+      </div>
+      <div class="footer-section">
+        <h3>Liên Kết</h3>
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Thiên tai</a></li>
+          <li><a href="#">Tin tức</a></li>
+          <li><a href="#">Hỗ trợ</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Theo Dõi Chúng Tôi</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Thiên Tai & Thời Tiết. Tất cả quyền được bảo lưu.</p>
+    </div>
+  </footer>
+<script src="Js/tintuc.js"></script>
+</body>
+</html>

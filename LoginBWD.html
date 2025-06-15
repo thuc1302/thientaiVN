@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Đăng nhập</title>
+  <link rel="stylesheet" href="Css/login.css"/>
+</head>
+<body>
+    <div class="container">
+    <div class="form login-form">
+      <h1>Đăng nhập</h1>
+      <form id="loginForm">
+        <div class="input">
+          <input type="text" placeholder="Tên đăng nhập" name="username" required />
+        </div>
+        <div class="input">
+          <input type="password" placeholder="Mật khẩu" name="password" required />
+        </div>
+        <div class="input buttons">
+          <button type="submit">Đăng nhập</button>
+          <button type="button" class="register-btn">Đăng ký</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="form register-form">
+      <h1>Đăng ký</h1>
+      <form id="registerForm">
+        <div class="input">
+          <input type="text" placeholder="Tên đăng nhập" name="username" required />
+        </div>
+        <div class="input">
+          <input type="password" placeholder="Mật khẩu" name="password" required />
+        </div>
+        <div class="input">
+          <input type="email" placeholder="Email" name="email" required />
+        </div>
+        <div class="input">
+          <input type="tel" placeholder="Số điện thoại" name="phone" required />
+        </div>
+        <div class="input buttons">
+          <button type="submit">Đăng ký</button>
+          <button type="button" class="login-btn">Quay lại</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="Js/login.js"></script>
+</body>
+</html>

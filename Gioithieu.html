@@ -1,0 +1,384 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Css/gioithieu.css">
+  
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="navbar">
+      <img src="Img/Logo.png" class="logo" />
+
+      <a href="index.html"><i class="fa-solid fa-house white-icon"></i> Trang chủ</a>
+      <a href="Gioithieu.html"><i class="fas fa-cloud-bolt white-icon"></i> Thiên tai</a>
+      <a href="hotro.html">
+      <i class="fas fa-hand-holding-heart white-icon"></i> Hỗ trợ</a>
+
+      <div class="dropdown">
+        <a href="Tintuc.html"
+          ><i class="fa-solid fa-circle-info white-icon"></i> Tin tức</a
+        >
+      </div>
+
+      <div class="dropdown">
+        <a href="#"><i class="fas fa-user white-icon"></i> Tài khoản</a>
+        <div class="dropdown-content">
+          <a href="LoginBWD.html">Đăng nhập</a>
+        </div>
+      </div>
+    </div>
+    <section class="safety-tips">
+      <h1>Nguyên nhân</h1>
+        <div class="tips-grid">
+          <div class="tip-item">
+            <i class="fas fa-fire"></i>
+            <h3>Cháy rừng</h3>
+            <a href="#" class="read-more" data-target="#fire-info">Đọc thêm</a>
+          </div>
+          <div class="tip-item">
+            <i class="fas fa-house-tsunami"></i>
+            <h3>Lũ lụt</h3>
+            <a href="#" class="read-more" data-target="#flood-info">Đọc thêm</a>
+          </div>
+          <div class="tip-item">
+            <i class="fas fa-house-crack"></i>
+            <h3>Động đất</h3>
+            <a href="#" class="read-more" data-target="#earthquake-info">Đọc thêm</a>
+          </div>
+          <div class="tip-item">
+            <i class="fas fa-mountain"></i>
+            <h3>Sạt lở</h3>
+            <a href="#" class="read-more" data-target="#landslide-info">Đọc thêm</a>
+          </div>
+          <div class="tip-item">
+            <i class="fas fa-cloud-bolt"></i>
+            <h3>Bão</h3>
+            <a href="#" class="read-more" data-target="#storm-info">Đọc thêm</a>
+          </div>
+          <div class="tip-item">
+            <i class="fas fa-snowflake"></i>
+            <h3>Mưa đá</h3>
+            <a href="#" class="read-more" data-target="#hail-info">Đọc thêm</a>
+          </div>
+        </div>
+    </section>
+
+  <div id="fire-info" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Nguyên nhân của cháy rừng</h2>
+      <ul>
+        <li>Tự nhiên: sét đánh, thời tiết khô nóng kéo dài.</li>
+        <li>Con người: đốt rừng, vứt tàn thuốc, đốt đồng không kiểm soát.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="flood-info" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Nguyên nhân của lũ lụt</h2>
+      <ul>
+        <li>Thiên nhiên: Mưa lớn kéo dài, bão, áp thấp, triều cường.</li>
+        <li>Con người: Vỡ đập, hệ thống thoát nước kém.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="earthquake-info" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Nguyên nhân của động đất</h2>
+      <ul>
+        <li>Thiên nhiên: Các mảng kiến tạo dịch chuyển, hiện tượng núi lửa phun, nứt gãy vỏ Trái Đất.</li>
+        <li>Con người: Khai thác mỏ, bơm chất lỏng vào đất, xây đập thủy điện.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="landslide-info" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Nguyên nhân của sạt lở</h2>
+      <ul>
+        <li>Thiên nhiên: Mưa lớn kéo dài, động đất, dư chấn.</li>
+        <li>Con người: Chặt phá rừng, khai khoáng.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="storm-info" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Nguyên nhân của bão</h2>
+      <ul>
+        <li>Thiên nhiên: Áp thấp nhiệt đới, nước biển ở khu vực nhiệt đới nóng.</li>
+        <li>Con người: Hiệu ứng nhà kính, biến đổi khí hậu, nóng lên toàn cầu.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="hail-info" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Nguyên nhân của mưa đá</h2>
+      <ul>
+        <li>Thiên nhiên: Giông mạnh, dòng đối lưu đưa hơi nước lên cao, các hạt băng tiếp tục va chạm, dính vào nhau, rồi rơi xuống khi đủ nặng.</li>
+        <li>Con người: Hiện tượng ấm lên toàn cầu, biến đổi khí hậu, ô nhiễm không khí, hiệu ứng nhà kính do khí CO₂, CH₄ tăng cao, thay đổi hoàn lưu không khí.</li>
+      </ul>
+    </div>
+  </div>
+      <section class="safety-tips">
+      <h1>Hậu quả</h1>
+      <div class="tips-grid">
+        <div class="tip-item">
+          <i class="fas fa-fire"></i>
+          <h3>Cháy rừng</h3>
+          <a href="#" class="read-more" data-target="#fire-consequence">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-house-tsunami"></i>
+          <h3>Lũ lụt</h3>
+          <a href="#" class="read-more" data-target="#flood-consequence">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-house-crack"></i>
+          <h3>Động đất</h3>
+          <a href="#" class="read-more" data-target="#earthquake-consequence">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-mountain"></i>
+          <h3>Sạt lở</h3>
+          <a href="#" class="read-more" data-target="#landslide-consequence">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-cloud-bolt"></i>
+          <h3>Bão</h3>
+          <a href="#" class="read-more" data-target="#storm-consequence">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-snowflake"></i>
+          <h3>Mưa đá</h3>
+          <a href="#" class="read-more" data-target="#hail-consequence">Đọc thêm</a>
+        </div>
+      </div>
+  </section>
+
+  <div id="fire-consequence" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Hậu quả của cháy rừng</h2>
+      <ul>
+        <li>Mất tài sản, rừng, động vật.</li>
+        <li>Ô nhiễm không khí, ảnh hưởng sức khoẻ.</li>
+        <li>Xói mòn đất, lũ quét sau khi rừng mất.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="flood-consequence" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Hậu quả của lũ lụt</h2>
+      <ul>
+        <li>Ngập nhà, tài sản, hoa màu.</li>
+        <li>Gây dịch bệnh, ô nhiễm nguồn nước.</li>
+        <li>Gián đoạn giao thông, dịch vụ.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="earthquake-consequence" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Hậu quả của động đất</h2>
+      <ul>
+        <li>Sập nhà, đổ công trình.</li>
+        <li>Hỏa hoạn, vỡ ống nước, điện.</li>
+        <li>Thương vong, tổn thất tài sản.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="landslide-consequence" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Hậu quả của sạt lở</h2>
+      <ul>
+        <li>Vùi lấp nhà, tài sản.</li>
+        <li>Tắc nghẽn giao thông.</li>
+        <li>Gây chết người, tổn thất tài chính.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="storm-consequence" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Hậu quả của bão</h2>
+      <ul>
+        <li>Tốc mái nhà, đổ cây, đứt điện.</li>
+        <li>Mưa to, lũ lụt, sóng biển dâng.</li>
+        <li>Gây thiệt hại tài sản, chết người.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="hail-consequence" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Hậu quả của mưa đá</h2>
+      <ul>
+        <li>Làm vỡ kính, hư mái nhà.</li>
+        <li>Hủy hoại hoa màu, vườn tược.</li>
+        <li>Gây nguy hiểm nếu rơi trúng người, tài sản.</li>
+      </ul>
+    </div>
+  </div>
+      <section class="safety-tips">
+      <h1>Mẹo an toàn</h1>
+      <div class="tips-grid">
+        <div class="tip-item">
+          <i class="fas fa-fire"></i>
+          <h3>Cháy rừng</h3>
+          <a href="#" class="read-more" data-target="#fire-tips">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-house-tsunami"></i>
+          <h3>Lũ lụt</h3>
+          <a href="#" class="read-more" data-target="#flood-tips">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-house-crack"></i>
+          <h3>Động đất</h3>
+          <a href="#" class="read-more" data-target="#earthquake-tips">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-mountain"></i>
+          <h3>Sạt lở</h3>
+          <a href="#" class="read-more" data-target="#landslide-tips">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-cloud-bolt"></i>
+          <h3>Bão</h3>
+          <a href="#" class="read-more" data-target="#storm-tips">Đọc thêm</a>
+        </div>
+        <div class="tip-item">
+          <i class="fas fa-snowflake"></i>
+          <h3>Mưa đá</h3>
+          <a href="#" class="read-more" data-target="#hail-tips">Đọc thêm</a>
+        </div>
+      </div>
+  </section>
+
+  <div id="fire-tips" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Mẹo an toàn của cháy rừng</h2>
+      <ul>
+        <li>Nếu ở khu vực gần đám cháy, hãy di chuyển đến nơi an toàn.</li>
+        <li>Dùng khăn ướt che mũi, miệng để tránh khói.</li>
+        <li>Liên hệ khẩn (114 hoặc 911).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="flood-tips" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Mẹo an toàn của lũ lụt</h2>
+      <ul>
+        <li>Di chuyển đến khu vực cao, an toàn.</li>
+        <li>Tắt điện, khóa gas nếu an toàn.</li>
+        <li>Tuyệt đối không lội qua dòng nước chảy.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="earthquake-tips" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Mẹo an toàn của động đất</h2>
+      <ul>
+        <li>Nếu ở trong nhà: tìm chỗ trú vững như gầm bàn.</li>
+        <li>Nếu ở ngoài: tránh khu vực cao tầng, cột điện.</li>
+        <li>Giữ tâm lý vững, sau khi rung lắc dừng hãy ra khỏi nhà.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="landslide-tips" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Mẹo an toàn của sạt lở</h2>
+      <ul>
+        <li>Sơ tán khỏi khu vực sườn đồi khi mưa lớn.</li>
+        <li>Theo dõi thông tin từ chính quyền.</li>
+        <li>Gia cố nhà ở, trồng cây chắn đất.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="storm-tips" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Mẹo an toàn của bão</h2>
+      <ul>
+        <li>Gia cố nhà, đóng chặt cửa.</li>
+        <li>Di dời đến nơi trú ẩn nếu được yêu cầu.</li>
+        <li>Tích trữ lương thực, nước, thuốc men.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="hail-tips" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Mẹo an toàn của mưa đá</h2>
+      <ul>
+        <li>Tìm nơi trú ẩn, tránh ở ngoài trời.</li>
+        <li>Đóng hết cửa, kéo rèm.</li>
+        <li>Di chuyển xe, tài sản vào khu vực có mái che.</li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Về Chúng Tôi</h3>
+          <p>
+            Trang thông tin về thiên tai và thời tiết, cung cấp kiến thức và
+            hướng dẫn an toàn cho cộng đồng.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Liên Kết</h3>
+          <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Thiên tai</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="#">Hỗ trợ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Theo Dõi Chúng Tôi</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Thiên Tai & Thời Tiết. Tất cả quyền được bảo lưu.</p>
+      </div>
+    </footer>
+<script src="Js/gioithieu.js" defer></script>
+</body>
+</html>

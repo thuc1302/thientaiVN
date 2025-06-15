@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ủng hộ & Hỗ trợ | Thiên Tai & Thời Tiết</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/hotro.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="Img/Logo.png" class="logo" />
+      <a href="index.html"><i class="fa-solid fa-house white-icon"></i> Trang chủ</a>
+      <a href="Gioithieu.html"><i class="fas fa-cloud-bolt white-icon"></i> Thiên tai</a>
+      <a href="hotro.html"><i class="fas fa-hand-holding-heart white-icon"></i> Hỗ trợ</a>
+      <div class="dropdown">
+        <a href="Tintuc.html"><i class="fa-solid fa-circle-info white-icon"></i> Tin tức</a>
+      </div>
+      <div class="dropdown">
+        <a href="#"><i class="fas fa-user white-icon"></i> Tài khoản</a>
+        <div class="dropdown-content">
+          <a href="LoginBWD.html">Đăng nhập</a>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="donate-hero">
+        <div class="donate-hero-text">
+          <h2>Bạn có thể tạo ra sự khác biệt</h2>
+          <h1>
+            Ủng hộ của bạn mang lại hy vọng và giúp đỡ các gia đình gặp khó khăn
+          </h1>
+          <p>
+            Sự đóng góp của bạn sẽ giúp chúng tôi hỗ trợ các gia đình bị ảnh
+            hưởng bởi thiên tai như lũ lụt, cháy rừng, động đất, bão...<br />
+            Mọi khoản quyên góp đều được sử dụng minh bạch, đúng mục đích.
+          </p>
+        </div>
+        <div class="donate-hero-img">
+          <img src="Img/bao.jpg" alt="Disaster Relief" />
+        </div>
+      </div>
+      <div class="donate-form">
+        <div class="donate-type">
+          <button class="donate-type-btn active" id="one-time-btn">
+            Một lần
+          </button>
+          <button class="donate-type-btn" id="monthly-btn">Hàng tháng</button>
+        </div>
+        <div class="donate-amounts">
+          <button class="amount-btn">$75</button>
+          <button class="amount-btn">$125</button>
+          <button class="amount-btn">$250</button>
+          <button class="amount-btn">$500</button>
+          <button class="amount-btn">$1000</button>
+          <input
+            type="number"
+            min="10"
+            placeholder="Số khác ($)"
+            class="amount-input"
+          />
+        </div>
+        <div class="donate-note">
+          <small
+            >$10 là mức quyên góp tối thiểu. Mọi khoản quyên góp đều được ghi
+            nhận và trừ thuế hợp lệ.</small
+          >
+        </div>
+        <div class="donate-options-extra">
+          <label>
+            <input type="checkbox" />
+            Thêm phí xử lý để 100% số tiền đến được người cần giúp đỡ.
+          </label>
+          <label>
+            <input type="checkbox" />
+            Dành tặng món quà này cho người thân hoặc bạn bè.
+          </label>
+        </div>
+        <button class="donate-btn-main">Quyên góp ngay</button>
+      </div>
+    </div>
+    <!-- Footer giống index.html -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Về Chúng Tôi</h3>
+          <p>
+            Trang thông tin về thiên tai và thời tiết, cung cấp kiến thức và
+            hướng dẫn an toàn cho cộng đồng.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Liên Kết</h3>
+          <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="#">Thiên tai</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li><a href="hotro.html">Hỗ trợ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Theo Dõi Chúng Tôi</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Thiên Tai & Thời Tiết. Tất cả quyền được bảo lưu.</p>
+      </div>
+    </footer>
+    <script src="Js/hotro.js"></script>
+  </body>
+</html>
